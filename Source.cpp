@@ -464,7 +464,7 @@ void task_3_and_4()
 	}
 }
 
-void main()
+int main()
 {
 	test_stack();
 	test_queue();
@@ -472,4 +472,6 @@ void main()
 	task_1();
 	task_2();
 	task_3_and_4();
+
+	return 0;
 }
